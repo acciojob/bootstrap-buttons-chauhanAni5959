@@ -1,56 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
   <title>Bootstrap Buttons</title>
-  <!-- Bootstrap 4.5 CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-  />
-  <!-- Custom Styles (optional) -->
-  <style>
-    /* No override needed for full width since btn-block handles it */
-  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body class="p-3">
-  <h4 class="mb-3">Bootstrap Buttons</h4>
-
-  <!-- Button 1: Primary -->
-  <button id="button-1" class="btn btn-primary">Button-1</button>
-
-  <!-- Button 2: Outline Secondary -->
-  <button id="button-2" class="btn btn-outline-secondary">Button-2</button>
-
-  <!-- Button 3: Success Large -->
-  <button id="button-3" class="btn btn-success btn-lg">Button-3</button>
-
-  <!-- Button 4: Danger Small -->
-  <button id="button-4" class="btn btn-danger btn-sm">Button-4</button>
-
-  <br /><br />
-
-  <!-- Button 5: Warning Large Full Width -->
-  <button id="button-5" class="btn btn-warning btn-lg btn-block">Button-5</button>
-
-  <br />
-
-  <!-- Button 6: Disabled Info -->
-  <button id="button-6" class="btn btn-info" disabled>Button-6</button>
-
-  <!-- Button 7: Light -->
-  <button id="button-7" class="btn btn-light">Button-7</button>
-
-  <!-- Button 8: Link -->
-  <a id="button-8" href="#" class="btn btn-link">Button-8</a>
-
-  <!-- Bootstrap 4.5 JS (with dependencies) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <!-- Your Custom JS -->
-  <script src="./script.js"></script>
+<body>
+  <div class="container-fluid mt-2">
+    <h4>Bootstrap Buttons</h4>
+    <div class="d-flex align-items-center mb-2">
+      <button id="button-1" class="btn btn-primary mr-2">Button-1</button>
+      <button id="button-2" class="btn btn-outline-secondary mr-2">Button-2</button>
+      <button id="button-3" class="btn btn-success btn-lg mr-2">Button-3</button>
+      <button id="button-4" class="btn btn-danger btn-sm">Button-4</button>
+    </div>
+    <div class="mb-2">
+      <button id="button-5" class="btn btn-warning btn-lg btn-block">Button-5</button>
+    </div>
+    <div class="d-flex align-items-center">
+      <button id="button-6" class="btn btn-info mr-2" disabled>Button-6</button>
+      <button id="button-7" class="btn btn-light mr-2">Button-7</button>
+      <a id="button-8" href="#" class="btn btn-link">Button-8</a>
+    </div>
+  </div>
 </body>
 </html>
